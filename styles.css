@@ -62,31 +62,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}#boom-button {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-}
-
-#boom-button button {
-    background-color: #f00;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.rainbow {
-    background-color: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-    animation: rainbow 1s infinite;
-}
-
-@keyframes rainbow {
-    0% {
-        background-position: 0% 0%;
-    }
-    100% {
-        background-position: 100% 0%;
-    }
 }
