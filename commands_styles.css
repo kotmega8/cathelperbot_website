@@ -11,35 +11,17 @@ header {
     text-align: center;
     padding: 1em;
 }
-#commands-section {
+
+#main-section {
     background-color: #fff;
-    max-width: 800px;
+    max-width: 90%; /* Заменяем фиксированную ширину на относительную */
     margin: 20px auto;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#commands-section .feature {
-    text-align: center;
-}
-
-#commands-section .image-container {
-    margin-top: 20px;
-    overflow: hidden;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-#commands-section .image-container img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-.feature {
-    text-align: center;
-}
-
+/* Адаптивные стили для изображений */
 .image-container {
     margin-top: 20px;
     overflow: hidden;
@@ -48,18 +30,23 @@ header {
 }
 
 .image-container img {
-    width: 100%;
+    width: 100%; /* Чтобы изображение автоматически масштабировалось */
     height: auto;
     border-radius: 8px;
 }
 
+/* Пример для дополнительного раздела (additional-section) */
 #additional-section {
     background-color: #eee;
-    max-width: 800px;
+    max-width: 90%; /* Аналогично, меняем на относительную ширину */
     margin: 20px auto;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature {
+    text-align: center;
 }
 
 button {
